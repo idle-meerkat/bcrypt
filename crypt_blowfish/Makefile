@@ -23,7 +23,7 @@ ASFLAGS = -c
 LDFLAGS = -s
 
 BLOWFISH_OBJS = \
-	crypt_blowfish.o x86.o
+	crypt_blowfish.o
 
 CRYPT_OBJS = \
 	$(BLOWFISH_OBJS) crypt_gensalt.o wrapper.o
